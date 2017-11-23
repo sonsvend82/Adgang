@@ -1,0 +1,46 @@
+﻿<Window x:Class="Adgang.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Adgangskontroll" Height="495" Width="994" Closing="DataWindow_Closing">
+    <Grid Margin="0,0,0,0" >
+        <DataGrid Margin="10,30,500,62" Name="listKort" Loaded="DataGrid_Loaded" ItemsSource="{Binding Mode=OneWay}">
+
+        </DataGrid>
+
+        <Canvas Background="#FFE7F1B9" Height="373" HorizontalAlignment="Left" Margin="494,30,0,0" Name="canvas1" OpacityMask="#FFF6F8FF" VerticalAlignment="Top" Width="479" Panel.ZIndex="0">
+            <Button x:Name="buttonKort" Content="Presenter kort" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="220" FontSize="20" Canvas.Left="10" Canvas.Top="20" Click="buttonKort_Click"/>
+            <GroupBox Header="Panel" Height="272" HorizontalAlignment="Left" Name="groupBoxTall" VerticalAlignment="Top" Width="220" Background="#FF9EF2EC" Canvas.Left="10" Canvas.Top="84">
+                <Grid>
+                    <StackPanel HorizontalAlignment="Left" Height="246" Margin="0,0,0,0" Orientation="Vertical" VerticalAlignment="Top" Width="210">
+                        <Rectangle x:Name="rectangleLampe" Fill="#FFEE410E" HorizontalAlignment="Left" Height="18" Margin="10,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="190"/>
+                        <StackPanel Height="56" Margin="20,0,10,0" Orientation="Horizontal">
+                            <Button x:Name="button1" Content="1" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button1_Click"/>
+                            <Button x:Name="button2" Content="2" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button2_Click"/>
+                            <Button x:Name="button3" Content="3" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button3_Click"/>
+                        </StackPanel>
+                        <StackPanel Height="56" Margin="20,0,10,0" Orientation="Horizontal">
+                            <Button x:Name="button4" Content="4" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button4_Click"/>
+                            <Button x:Name="button5" Content="5" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button5_Click"/>
+                            <Button x:Name="button6" Content="6" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button6_Click"/>
+                        </StackPanel>
+                        <StackPanel Height="56" Margin="20,0,10,0" Orientation="Horizontal">
+                            <Button x:Name="button7" Content="7" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button7_Click"/>
+                            <Button x:Name="button8" Content="8" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button8_Click"/>
+                            <Button x:Name="button9" Content="9" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button9_Click"/>
+                        </StackPanel>
+                        <StackPanel Height="56" Margin="20,0,10,0" Orientation="Horizontal">
+                            <Button x:Name="buttonStar" Content="*" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="buttonStar_Click"/>
+                            <Button x:Name="button0" Content="0" Margin="5,0,0,0" Height="40" Width="50" FontSize="20" Click="button0_Click"/>
+                            <Button x:Name="buttonNumber" Content="#" Margin="5,0,0,0" Height="40" Width="50" FontSize="20"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+            <Button x:Name="buttonApen" Content="Åpen Dør" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="220" FontSize="20" Canvas.Left="249" Canvas.Top="99" Click="buttonApen_Click"/>
+            <Button x:Name="buttonLukket" Content="Lukket Dør" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="220" FontSize="20" Canvas.Left="249" Canvas.Top="147" Click="buttonLukket_Click"/>
+        </Canvas>
+        <Button Content="Avslutt" FontSize="16" Height="34" HorizontalAlignment="Left" Margin="907,421,0,0" Name="buttonAvslutt" VerticalAlignment="Top" Width="66" Click="buttonAvslutt_Click"  />
+        <Button Content="Reset" FontSize="16" Height="34" HorizontalAlignment="Left" Margin="802,421,0,0" Name="buttonReset" VerticalAlignment="Top" Width="66" Click="buttonReset_Click"  />
+        <Rectangle x:Name="alarmLampe" Fill="#FFE7F1B9" HorizontalAlignment="Left" Height="149" Margin="743,235,0,0" Stroke="Black" VerticalAlignment="Top" Width="216"/>
+    </Grid>
+</Window>

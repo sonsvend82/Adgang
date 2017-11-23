@@ -1,0 +1,26 @@
+D:\Visual Studio Projects Cs\WPF\Adgang\bin\Debug\Adgang.exe.config
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\Adgang.csprojResolveAssemblyReference.cache
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\MainWindow.baml
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\App.g.cs
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\Adgang_MarkupCompile.cache
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\Adgang.g.resources
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\Adgang.Properties.Resources.resources
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\Adgang.csproj.GenerateResource.Cache
+D:\Visual Studio Projects Cs\WPF\Adgang\bin\Debug\Adgang.exe
+D:\Visual Studio Projects Cs\WPF\Adgang\bin\Debug\Adgang.pdb
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\Adgang.exe
+D:\Visual Studio Projects Cs\WPF\Adgang\obj\Debug\Adgang.pdb
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\bin\Debug\Adgang.exe.config
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\Adgang.exe
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\Adgang.pdb
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\Adgang.csprojResolveAssemblyReference.cache
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\MainWindow.baml
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\MainWindow.g.cs
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\App.g.cs
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\Adgang_MarkupCompile.cache
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\Adgang.g.resources
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\Adgang.Properties.Resources.resources
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\obj\Debug\Adgang.csproj.GenerateResource.Cache
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\bin\Debug\Adgang.exe
+D:\Skole\Ele 132 - Csharp + SQL\Eksamen 2015\Adgang\bin\Debug\Adgang.pdb
